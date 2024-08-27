@@ -1,17 +1,30 @@
 {
-  "description": "Basic Debian with Tools",
-  "docker_registry": "https://gitea.lauercloud.de",
-  "name": "gitea.lauercloud.de/mike/kasm-workspaces:debian-tools",
+  "description": "Chromium is a free and open-source browser, primarily developed and maintained by Google.",
+  "docker_registry": "https://index.docker.io/v1/",
   "image_src": "debian.png",
+  "name": "kasmweb/chromium:develop",
+  "run_config": {
+    "hostname": "kasm"
+  },
+  "exec_config": {
+    "go": {
+      "cmd": "bash -c '/dockerstartup/custom_startup.sh --go --url \"$KASM_URL\"'"
+    },
+    "assign": {
+      "cmd": "bash -c '/dockerstartup/custom_startup.sh --assign --url \"$KASM_URL\"'"
+    }
+  },
   "categories": [
-    "Development"
+    "Browser"
   ],
-  "friendly_name": "Debian Tools",
+  "friendly_name": "Debian",
   "architecture": [
-    "amd64"
+    "amd64",
+    "arm64"
   ],
   "compatibility": [
-    "1.13.x"
+    "1.13.x",
+    "1.14.x"
   ],
   "uncompressed_size_mb": 2170
 }
