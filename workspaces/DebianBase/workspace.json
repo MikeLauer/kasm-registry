@@ -2,7 +2,7 @@
   "description": "Debian Tools",
   "docker_registry": "https://ghcr.io/",
   "image_src": "digikam.png",
-  "name": "gitea.lauercloud.de/mike/kasm-workspaces:debian-tools",
+  "name": "https://gitea.lauercloud.de/mike/-/packages/container/kasm-workspaces/debian-tools",
   "run_config": {},
   "exec_config": {},
   "categories": [
