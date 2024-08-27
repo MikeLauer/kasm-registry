@@ -2,7 +2,7 @@
   "description": "Basic Debian with Tools",
   "docker_registry": "https://gitea.lauercloud.de",
   "name": "mike/kasm-workspaces:debian-tools",
-  "image_src": "debian.svg",
+  "image_src": "DebianBase.svg",
   "categories": [
     "Development"
   ],
