@@ -1,12 +1,12 @@
 {
-  "description": "Basic Debian",
-  "docker_registry": "https://index.docker.io/v1/",
-  "name": "kasmweb/debian-base:develop",
+  "description": "Basic Debian with Tools",
+  "docker_registry": "https://gitea.lauercloud.de",
+  "name": "mike/kasm-workspaces:debian-tools",
   "image_src": "debian.png",
   "categories": [
     "Development"
   ],
-  "friendly_name": "Debian Base",
+  "friendly_name": "Debian Tools",
   "architecture": [
     "amd64"
   ],
